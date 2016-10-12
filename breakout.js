@@ -27,9 +27,9 @@ Breakout = {
         },
 
         paddle: {
-            width:  7,
+            width:  4,
             height: 0.9,
-            speed:  20
+            speed:  30
         },
 
         color: {
@@ -40,7 +40,7 @@ Breakout = {
             ball:       'black',
             paddle:     'rgb(245,111,37)',
             score:      "#EFD279",
-            highscore:  "#AFD775"
+            highscore:  "#fff600"
         },
 
         state: {
