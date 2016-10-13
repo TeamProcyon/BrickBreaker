@@ -43,19 +43,32 @@ Breakout.Colors = {
         y: '#7B797E'  // dark  gray
     },
 
+    logo: {
+        r:"#79D2EF",
+        y: "#FFF7A5", // yellow
+        p: "#FFA5E0", // pink
+        b: "#A5B3FF", // blue
+        g: "#BFFFA5", // green
+        o: "#FFCBA5"  // orange
+    }
+
 
 };
 
 Breakout.Levels = [
 
-    { colors: Breakout.Colors.pastel,
+    { colors: Breakout.Colors.logo,
         bricks: [
-            "", "", "", "",
-            "yyyyyYYYYYyyyyyYYYYYyyyyyYYYYY",
-            "pppppPPPPPpppppPPPPPpppppPPPPP",
-            "bbbbbBBBBBbbbbbBBBBBbbbbbBBBBB",
-            "gggggGGGGGgggggGGGGGgggggGGGGG",
-            "oooooOOOOOoooooOOOOOoooooOOOOO"
+            "", "", "",
+            "oRRRoRRRoRRRoRRoRoRoRRRoRoorRo",
+            "oRRRoRRRoRoRoRoooRooRoRoRoRoRo",
+            "oRoooRrooRRRoRRoRoooRRRoRrooRo",
+            "oooooooooooooooooooooooooooooo",
+            "oooooRrRrRorrrooroorRoRroooooo",
+            "ooooooorooorroorRrorororoooooo",
+            "ooooooorooorrrorororooororoooo",
+            "OOOOOOOOOOooooooooooOOOOOOOOOO",
+
         ]
     },
 
@@ -89,7 +102,32 @@ Breakout.Levels = [
             "   ggggggg  gggggg  gggggg    ",
         ]
     },
+    { colors: Breakout.Colors.arkanoid,
+        bricks: [
+            "", "", "",
+            "   wwWWwwwWWwwwwwwWwwWwwwwww   ",
+            "   wwwWwwWwwWwWwwwWwWwwwwWww   ",
+            "   ggGgGgGgggGgGggGGgggGGggg   ",
+            "   ggGgGggGgGggGgggGGggGgGgg   ",
+            "   RrRrRrrrRrRrRrRrRrRrRrrRr   ",
+            "   RrrRrrrRrRrrRrRrRrRrRRrRr   ",
+        ]
+    },
 
+    { colors: Breakout.Colors.arkanoid,
+        bricks: [
+            "", "", "",
+            "oRRRoRRRoRRRoRRoRoRoRRRoRoorRo",
+            "oRRRoRRRoRoRoRoooRooRoRoRoRoRo",
+            "oRoooRrooRRRoRRoRoooRRRoRrooRo",
+            "oooooooooooooooooooooooooooooo",
+            "oooooRrRrRorrrooroorRoRroooooo",
+            "ooooooorooorroorRrorororoooooo",
+            "ooooooorooorrrorororooororoooo",
+            "OOOOOOOOOOooooooooooOOOOOOOOOO",
+
+        ]
+    }
 ];
 
 
